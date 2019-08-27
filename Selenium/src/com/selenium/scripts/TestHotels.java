@@ -16,7 +16,7 @@ public class TestHotels extends BaseLibrary{
 		HotelsList hotelList = new HotelsList(driver);
 		ExcelLiberary excelLibrary = new ExcelLiberary();
 		hotelList.search(passDestination );
-		excelLibrary.writeExcel();	
+		excelLibrary.writeExcel();			
 	}
 
 }

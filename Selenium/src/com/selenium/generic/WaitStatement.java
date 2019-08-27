@@ -26,6 +26,7 @@ public class WaitStatement {
 	public void explicitWait(WebDriver driver, int time, WebElement element)
 	
 	{
+		
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}

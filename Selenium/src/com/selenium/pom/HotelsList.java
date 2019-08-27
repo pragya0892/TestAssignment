@@ -13,8 +13,8 @@ public class HotelsList {
 	public WaitStatement wait;
 	public WebDriver driver;
 	
-	@FindBy(xpath = "//button[@aria-label='Close overlay']")
-	private WebElement closePopUp;
+//	@FindBy(xpath = "//button[@aria-label='Close overlay']")
+//	private WebElement closePopUp;
 	
 	@FindBy(id = "qf-0q-localised-check-out")
 	private WebElement checkout;
@@ -54,7 +54,7 @@ public class HotelsList {
 	@Test
 	public void search(String passDestination)
 	{
-		closePopUp.click();
+	//	closePopUp.click();
 		checkout.click();
 		selectDate.click();
 		destination.sendKeys(passDestination);
