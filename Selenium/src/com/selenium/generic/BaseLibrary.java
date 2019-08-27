@@ -21,6 +21,8 @@ public Screenshot screenshot;
 @Parameters(value = "browser")
 public void preCondition(String browser)
 {
+	
+	
 	String url ="https://in.hotels.com";
 	
 	if(browser.equalsIgnoreCase("Firefox"))
